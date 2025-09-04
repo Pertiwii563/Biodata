@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Diri - Arini Eka Pertiwi</title>
+    <!-- Menggunakan font Google agar tampilan lebih modern dan elegan -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Latar belakang gradien lembut dan selaras */
+        body {
+            background: linear-gradient(35deg, #f5e9e2 0%, #c7d2fe 100%);
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        /* Kontainer utama dengan sudut membulat dan bayangan */
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 32px;
+            box-shadow: 0 8px 32px rgba(156, 186, 242, 0.789);
+            padding: 40px 32px 32px 32px;
+            position: relative;
+        }
+        /* Judul utama dengan font artistik */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            color: #2d3142;
+            text-align: center;
+            margin-bottom: 0;
+            letter-spacing: 10px;
+        }
+        /* Subjudul dengan warna dan ketebalan berbeda */
+        h2 {
+            font-size: 1.3rem;
+            color: #5f6f94;
+            text-align: center;
+            margin-bottom: 24px;
+            font-weight: 900;
+        }
+        /* Gambar profil dengan bentuk unik dan bayangan */
+        .profile-img-box {
+            background: linear-gradient(135deg, #e3eafc 0%, #f5e9e2 100%);
+            border-radius: 54% 54% 48% 48% / 55% 55% 45% 45%;
+            box-shadow: 0 4px 16px rgba(60,60,90,0.10);
+            padding: 12px;
+            width: 200px;
+            height: 210px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 18px auto;
+        }
+        .profile-img {
+            width: 1500px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 105% 105% 50% 50% / 100% 100% 48% 48%;
+            box-shadow: 0 2px 12px rgba(60,60,90,0.12);
+            background: #eee;
+        }
+        /* Paragraf dengan spasi dan warna*/
+        p {
+            color: #2d3142;
+            font-size: 1.08rem;
+            margin-bottom: 18px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        /* Format teks khusus */
+        .highlight {
+            background: linear-gradient(90deg, #c7d2fe 0%, #f5e9e2 100%);
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #2d3142;
+        }
+        /* Tabel biodata dengan jarak antar baris */
+        .biodata-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 10px;
+            margin-bottom: 18px;
+        }
+        .biodata-table td {
+            padding: 8px 0;
+            font-size: 1.08rem;
+        }
+        .biodata-table .label {
+            font-weight: 700;
+            color: #2d3142;
+            width: 38%;
+        }
+        .biodata-table .value {
+            color: #5f6f94;
+        }
+        /* Kredit di bagian bawah */
+        .credit {
+            text-align: center;
+            color: #b2b2b2;
+            font-size: 0.95rem;
+            margin-top: 32px;
+        }
+        /* Responsive untuk layar kecil */
+        @media (max-width: 800px) {
+            .container { padding: 18px 4vw; }
+            .profile-img-box { width: 140px; height: 160px; }
+            .profile-img { width: 110px; height: 1230px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading utama dan subjudul -->
+        <h1>Biodata Diri</h1>
+        <h2>Arini Eka Pertiwi</h2>
+        <!-- Gambar profil -->
+        <div class="profile-img-box">
+            <!-- Ganti photobooth.png dengan foto Anda -->
+            <img src="photobooth.png" alt="Foto Profil" class="profile-img">
+        </div>
+        <!-- Tabel biodata singkat -->
+        <table class="biodata-table">
+            <tr>
+                <td class="label">Nama</td>
+                <td class="value">: Arini Eka Pertiwi</td>
+            </tr>
+            <tr>
+                <td class="label">Nim</td>
+                <td class="value">: 2403111090</td>
+            </tr>
+            <tr>
+                <td class="label">Alamat</td>
+                <td class="value">: Jl. Bangau Sakti</td>
+            </tr>
+            <tr>
+                <td class="label">Kota Asal</td>
+                <td class="value">: Kandis</td>
+            </tr>
+            <tr>
+                <td class="label">Asal Sekolah</td>
+                <td class="value">: SMA LKMD Kandis</td>
+            </tr>
+        </table>
+        <!-- Paragraf profil diri -->
+        <p>
+            <span class="highlight">Profil Diri:</span> hallo! Saya <b>Arini Eka Pertiwi</b>, seorang mahasiswa <i>Sistem Informasi</i> di Universitas Riau dengan NIM <u>2403111090</u>. Saya berasal dari <b>Kandis</b> dan saat ini saya tinggal di <b>Jl. Bangau Sakti</b>.
+            Saya adalah lulusan dari <b>SMA LKMD Kandis</b>. Saya memiliki semangat belajar tinggi dan selalu ingin mengembangkan diri di bidang teknologi informasi.
+        </p>
+        <!-- Paragraf tentang motivasi dan cita-cita -->
+        <p>
+            Saya pernah membuat beberapa <b>tas tali kur</b> dan sempat menjualnya kepada orang di sekitar saya. Dari pengalaman itu, saya belajar bahwa kreativitas bisa menjadi peluang jika dikelola
+            dengan baik. Hal ini juga semakin menguatkan <b>cita-cita</b> saya untuk berkarier di bidang teknologi informasi sekaligus mengembangkan jiwa kewirausahaan, sehingga di masa depan saya dapat memanfaatkan teknologi digital untuk mendukung usaha kreatif maupun UMKM.
+        </p>
+        <!-- Paragraf tentang kepribadian dan harapan -->
+        <p>
+            Sebagai pribadi, saya berusaha untuk tetap <b>ramah</b> dan terbuka dalam bergaul. Meski pada awalnya saya cenderung pendiam, namun jika sudah terbiasa, saya lebih mudah untuk aktif dalam berkomunikasi. <b>Harapan saya ke depan</b>
+            adalah bisa menyelesaikan kuliah dengan baik, membanggakan orang tua, memperoleh pengalaman yang berharga, serta dapat memberikan manfaat bagi lingkungan sekitar, khususnya di bidang teknologi informasi.
+        </p>
+        <!-- Kredit di bagian bawah -->
+        <div class="credit">
+            &copy; 2025 Arini Eka Pertiwi. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
